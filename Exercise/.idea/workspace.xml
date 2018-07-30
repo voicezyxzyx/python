@@ -51,8 +51,8 @@
       <file leaf-file-name="5、正则.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/正则表达式/5、正则.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -218,25 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4、判断简单电话号码">
-    <configuration default="false" name="Dog类def方法实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pycharm文件" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dog类def方法实现.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.5、正则">
     <configuration default="false" name="1、创建文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,6 +291,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="5、正则" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/正则表达式" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pycharm文件" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则表达式/5、正则.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,19 +374,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Dog类def方法实现" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1、创建文件" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3、排列组合" />
-      <item index="3" class="java.lang.String" itemvalue="Python.4、判断电话号码" />
-      <item index="4" class="java.lang.String" itemvalue="Python.4、判断简单电话号码" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1、创建文件" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3、排列组合" />
+      <item index="2" class="java.lang.String" itemvalue="Python.4、判断电话号码" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4、判断简单电话号码" />
+      <item index="4" class="java.lang.String" itemvalue="Python.5、正则" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.4、判断简单电话号码" />
-        <item index="1" class="java.lang.String" itemvalue="Python.4、判断电话号码" />
-        <item index="2" class="java.lang.String" itemvalue="Python.3、排列组合" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1、创建文件" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Dog类def方法实现" />
+        <item index="0" class="java.lang.String" itemvalue="Python.5、正则" />
+        <item index="1" class="java.lang.String" itemvalue="Python.4、判断简单电话号码" />
+        <item index="2" class="java.lang.String" itemvalue="Python.4、判断电话号码" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3、排列组合" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1、创建文件" />
       </list>
     </recent_temporary>
   </component>
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/正则表达式/5、正则.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>

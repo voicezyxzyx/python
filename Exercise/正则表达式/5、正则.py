@@ -17,3 +17,6 @@ re.X  使我们更灵活的格式理解正则表达式
 功能：
 '''
 import re
+#www.baidu.com  判断是否是网址
+result = re.match("www","www.baidu.com")
+print(result)
