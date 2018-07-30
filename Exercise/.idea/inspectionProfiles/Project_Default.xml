@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="爬虫.yx_02_爬虫2.beautifulsoup4" />
+          <option value="card_tools" />
+          <option value="cards_tools" />
+          <option value="PYTHON.yx.i" />
+          <option value="面向对象.单继承实现.单继承的实现.Person" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

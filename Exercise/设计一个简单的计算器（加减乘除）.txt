@@ -1,0 +1,21 @@
+print("*"*20)
+print("   欢迎使用计算机  ")
+print("*"*20)
+a=int(input("请输入第一个数字："))
+b=int(input("请输入第二个数字："))
+print("选择计算方法：1、相加  2、相减  3、求和  4、相除")
+fangfa=int(input(""))
+if fangfa==1:
+    he=a+b
+    print("和为：%d" %he)
+elif fangfa==2:
+    cha=a-b
+    print("差为：%d" % cha)
+elif fangfa==3:
+    cheng = a*b
+    print("积为：%d" %cheng)
+elif fangfa==4:
+    chu=a/b
+    print("商为：%d" %chu)
+else:
+    print("输入错误")
