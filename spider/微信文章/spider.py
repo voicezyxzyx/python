@@ -3,7 +3,6 @@ from urllib.parse import urlencode
 from requests.exceptions import ConnectionError
 from pyquery import PyQuery as pq
 import pymongo
-
 client=pymongo.MongoClient('localhost')
 db=client['weixin']
 
