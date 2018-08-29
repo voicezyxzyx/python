@@ -11,7 +11,7 @@ client=pymongo.MongoClient(MONGO_URL)
 db=client[MONGO_DB]
 
 browser=webdriver.Chrome()
-# browser=webdriver.PhantomJS()    #PhantomJS  无界面浏览器
+# browser=webdriver.PhantomJS()    #PhantomJS
 wait=WebDriverWait(browser,10)
 def search():
     try:
@@ -20,7 +20,7 @@ def search():
             EC.presence_of_element_located((By.CSS_SELECTOR, "#q"))
         )
         submit=WebDriverWait(browser,10).until(EC.element_to_be_clickable((By.CSS_SELECTOR,'#J_TSearchForm > div.search-button > button')))
-        input.send_keys('美食')
+        input.send_keys(KEY_WORD)
         submit.click()
         total=wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'#mainsrp-pager > div > div > div > div.total')))
         get_products()
@@ -69,11 +69,15 @@ def save_to_mongo(result):
         print("存储到mongo失败",result)
 
 def main():
-    total=search()
-    total=int(re.compile('(\d+)').search(total).group(1))
-    for i in range(2,total+1):
-        next_page(i)
-    browser.close()
+    try:
+        total=search()
+        total=int(re.compile('(\d+)').search(total).group(1))
+        for i in range(2,total+1):
+            next_page(i)
+    except Exception:
+        print("出错了")
+    finally:
+        browser.close()
 if __name__== "__main__":
     main()
 
