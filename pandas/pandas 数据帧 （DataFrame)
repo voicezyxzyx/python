@@ -1,0 +1,25 @@
+'''
+数据帧(DataFrame)是二维数据结构，即数据以行和列的表格方式排列。
+数据帧(DataFrame)的功能特点：
+	1、潜在的列是不同的类型
+	2、大小可变标
+	3、记轴(行和列)
+	4、可以对行和列执行算术运算
+
+pandas中的DataFrame可以使用以下构造函数创建 -
+	pandas.DataFrame( data, index, columns, dtype, copy)
+'''
+
+#创建一个空的DataFrame
+import pandas as pd 
+df=pd.DataFrame()
+print(df)
+
+#从列表创建DateFrame
+data=[1,2,3,4,5]
+df=pd.DataFrame(data)
+print(df)
+
+data1=[['Alex',15],["Bob",16],["Clarke",21]]
+df1=pd.DataFrame(data1,columns=['Name','Age'])
+print(df1)
